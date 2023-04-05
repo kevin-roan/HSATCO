@@ -34,9 +34,9 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0">
         <a href="index.html" class="navbar-brand ms-lg-5">
-            <h1 class="m-0 text-uppercase text-dark"><i class="text-primary"></i>
-    <img style="height:50px;width:50px" src="/img/logo.ico">
-          HSATCO</h1>
+        <h1 class="m-0 text-uppercase text-dark" style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"><i class="text-primary" ></i>
+          <img style="height:45px;width:45px; border-radius: 50%; margin-bottom:10px;" src="/img/logo.ico"></i>
+           HSATCO</h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -244,7 +244,7 @@
                             <h6></h6><h6 class="text-muted ml-2">Lighting Fixtures Explosion Proof & Normal</h6>
                         </div>
                     </div>
-                <div class="btn btn-primary">More Details</div>
+                <div class="btn btn-primary" onclick="product('lights')">More Details</div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
@@ -534,4 +534,12 @@
     <script src="js/main.js"></script>
 </body>
 
+<script>
+function product(itemname) {
+  if(itemname=="lights"){
+    console.log("Lights clicked")
+     window.location.href = "/products/product.html";
+  }
+}
+</script>
 </html>
