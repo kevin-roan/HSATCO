@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-icon" href="/img/logo.ico">
+    <title>HSATCO</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <!-- font awsome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+ <!-- w3c schools icons -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0">
+        <a href="index.html" class="navbar-brand ms-lg-5">
+        <h1 class="m-0 text-uppercase text-dark" style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"><i class="text-primary" ></i>
+          <img style="height:45px;width:45px; border-radius: 50%; margin-bottom:10px;" src="/img/logo.ico"></i>
+           HSATCO</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="about.html" class="nav-item nav-link active">About</a>
+                <a href="service.html" class="nav-item nav-link">Service</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="products/light.html" class="dropdown-item">Industrial Lights</a>
+                        <a href="products/explosion.html" class="dropdown-item">Explosion Proof Fittings</a>
+                        <a href="products/welding.html" class="dropdown-item">Welding & Consumables</a>
+                        <a href="products/gas.html" class="dropdown-item">Gas Cylinders</a>
+                        <a href="products/trolleys.html" class="dropdown-item">Trolleys</a>
+                    </div>
+                </div>
+                         <a href="https://api.whatsapp.com/send?phone=0531303194" class="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">Contact Us <i class="bi bi-whatsapp"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+ 
+<!-- ludan gutpa  -->
+    <!-- Products Start -->
+    <div class="container-fluid pt-5">
+        <div class="text-center mb-4">
+            <!-- <h2 class="section-title px-5"><span class="px-2">PRODUCTS</span></h2> -->
+        </div>
+        <div class="row px-xl-5 pb-3">
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100"  style=" height:240px; width:100px; " src="img/product-1.png" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                <h6 class="text-uppercase mb-3">LIGHTING FIXTURES<br> LAMPS & BALLAST</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6></h6><h6 class="text-muted ml-2">Lighting Fixtures Explosion Proof & Normal</h6>
+                        </div>
+                    </div>
+                <div class="btn btn-primary" onclick="product('lights')">More Details</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100"  style=" height:240px; width:100px;" src="img/explosion.png" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+              <h6 class="text-truncate mb-3">EXPLOSION & FLAME PROOF<br>FITTING,LIGHTS & J.BOXES</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6></h6><h6 class="text-muted ml-2">Electrical Conduit Fittings, Conduit Outlet Boxes</h6>
+                        </div>
+                    </div>
+                <div class="btn btn-primary" onclick="product('explosion')" >More Details</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100"  style=" height:240px; width:100px;"  src="img/welding.png" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+              <h6 class="text-truncate mb-3">WELDING & CONSUMABLES</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6></h6><h6 class="text-muted ml-2">Welding Equipments Automated Cutting,Gas Cutting Metweld Accessories</h6>
+                        </div>
+                    </div>
+                <div class="btn btn-primary" onclick="product('welding')">More Details</div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100"  style=" height:240px; width:100px;"  src="img/gas.png" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+              <h6 class="text-truncate mb-3">GAS CYLINDERS</h6>
+                        <div class="d-flex justify-content-center">
+                  <h6></h6><h6 class="text-muted ml-2">Industrial Gas Cylinders<br> Double Stage Regulators,Valves & SS adapters </h6>
+                        </div>
+                    </div>
+                <div class="btn btn-primary"  onclick="product('gas')" >More Details</div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100"  style=" height:240px; width:100px;"  src="img/trolleys.png" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+              <h6 class="mb-3 text-uppercase">Heading Trolleys and Heavy Duty Wheels</h6>
+                        <div class="d-flex justify-content-center">
+                  <h6></h6><h6 class="text-muted ml-2 text-uppercase">Cylinder carrying trolleys Hydraulic pallet jacks</h6>
+
+                        </div>
+                    </div>
+                <div class="btn btn-primary"  onclick="product('gas')" >More Details</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100" style=" height:240px; width:100px;"  src="img/safty.png" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                      <h6 class="text-truncate mb-3">SAFETY MATERIALS</h6>
+                        <div class="d-flex justify-content-center">
+                  <h6></h6><h6 class="text-muted ml-2">MASK, FIRE BLANKET, GLOVES</h6>
+                        </div>
+                    </div>
+                <div class="btn btn-primary" onclick="product('safty')">More Details</div>
+            </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100"  style=" height:240px; width:100px;"  src="img/fast.png" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                      <h6 class="text-truncate mb-3">FASTENERS, BOLTS NUTS</h6>
+                        <div class="d-flex justify-content-center">
+                  <h6></h6><h6 class="text-muted ml-2">HEX BOLTS, ANCHOR BOLTS</h6>
+                        </div>
+                    </div>
+                <div class="btn btn-primary">More Details</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100"  style=" height:240px; width:100px;" src="img/conduit.png" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                      <h6 class="text-truncate mb-3">CONDUIT FITTINGS</h6>
+                        <div class="d-flex justify-content-center">
+                  <h6></h6><h6 class="text-muted ml-2">Conduit, Elbows, Couplings,Bushings</h6>
+                        </div>
+                    </div>
+                <div class="btn btn-primary">More Details</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100"   style=" height:240px; width:100px;  "src="img/rope.png" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                      <h6 class="text-truncate mb-3">ROPES</h6>
+                        <div class="d-flex justify-content-center">
+                  <h6></h6><h6 class="text-muted ml-2">Plastic Ropes,Mooring Ropes,Natural Fiber Ropes</h6>
+                        </div>
+                    </div>
+                <div class="btn btn-primary">More Details</div>
+                </div>
+            </div>
+              <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100"   style=" height:240px; width:100px;  "src="img/cable.png" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                      <h6 class="text-truncate mb-3">CABLE ACCESSORIES</h6>
+                        <div class="d-flex justify-content-center">
+                  <h6></h6><h6 class="text-muted ml-2">Terimination,Splicing kits,Cable Glands,Ties,Markers,Lugs,Cheats,etc</h6>
+                        </div>
+                    </div>
+                <div class="btn btn-primary">More Details</div>
+                </div>
+            </div>
+              <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img class="img-fluid w-100"   style=" height:240px; width:100px;  "src="img/wood.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                      <h6 class="text-truncate mb-3">WOODEN TIMBER BLOCKS</h6>
+                        <div class="d-flex justify-content-center">
+                  <h6></h6><h6 class="text-muted ml-2">Woods,timber blocks,Wood planks,Wood wedges,Hardwood blocks</h6>
+                        </div>
+                    </div>
+                <div class="btn btn-primary">More Details</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Products End -->
+
+<!-- ludan gutpa  -->
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-light mt-5 py-5">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">About Us</h5>
+                    <p class="mb-4" style="font-size:14px"> HSATCO is a well-established trading and contracting company serving the Saudi Arabian market for the last 3 years. HSATCO, with its ability, is trying to serve the Oil & Gas, Petrochemical, and contracting industry of the Kingdom. </p>
+              <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>AL ZAHOUR RASTANURA,KSA </p>
+                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@hatco.com</p>
+                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+053 130 3194</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Popular Products</h5>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Industrial Lighting</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Explosion & Flame Proof</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Welding & Consumables</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Safety Materials</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Fasteners,Bols Nuts</a>
+                        <a class="text-body" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Cable Accessories</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Popular Links</h5>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Values</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet Our Team</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Products</a>
+                        <a class="text-body" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Socials</h5>
+                    <form action="">
+                        <!-- <div class="input-group"> -->
+                        <!--     <input type="text" class="form-control p-3" placeholder="Your Email"> -->
+                        <!--     <button class="btn btn-primary">Sign Up</button> -->
+                        <!-- </div> -->
+                    </form>
+                    <h6 class="text-uppercase mt-4 mb-3">Follow Us</h6>
+                    <div class="d-flex">
+                        <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-twitter"></i></a>
+                        <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-facebook"></i></a>
+                        <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-linkedin"></i></a>
+                        <a class="btn btn-outline-primary btn-square" href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                 </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white-50 py-4">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-md-0">&copy; <a class="text-white" href="#">2023</a>. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0"><a class="text-white" href="https://info@hatco.com">HSATCO</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+<script>
+function product(itemname) {
+  if(itemname=="lights"){
+     window.location.href = "/products/light.html";
+  }
+  else if(itemname=="explosion"){
+     window.location.href = "/products/explosion.html";
+  }
+  else if(itemname=="welding"){
+     window.location.href = "/products/welding.html";
+  }else if(itemname=="gas"){
+     window.location.href = "/products/gas.html";
+  }
+  else if(itemname=="safty"){
+     window.location.href = "/products/safty.html";
+  }
+}
+</script>
+</html>

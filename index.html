@@ -52,15 +52,14 @@
                 <a href="index.html" class="nav-item nav-link active">Home</a>
                 <a href="about.html" class="nav-item nav-link">About</a>
                 <a href="service.html" class="nav-item nav-link">Service</a>
-                <a href="product.html" class="nav-item nav-link">Product</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
                     <div class="dropdown-menu m-0">
-                        <a href="price.html" class="dropdown-item">Pricing Plan</a>
-                        <a href="team.html" class="dropdown-item">The Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                        <a href="detail.html" class="dropdown-item">Blog Detail</a>
+                        <a href="products/light.html" class="dropdown-item">Industrial Lights</a>
+                        <a href="products/explosion.html" class="dropdown-item">Explosion Proof Fittings</a>
+                        <a href="products/welding.html" class="dropdown-item">Welding & Consumables</a>
+                        <a href="products/gas.html" class="dropdown-item">Gas Cylinders</a>
+                        <a href="products/trolleys.html" class="dropdown-item">Trolleys</a>
                     </div>
                 </div>
                          <a href="contact.html" class="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">Contact Us <i class="bi bi-whatsapp"></i></a>
@@ -77,13 +76,16 @@
                 <div class="col-lg-8 text-center text-lg-start">
                     <h1 class=" hero-heading1 display-1 text-uppercase text-primary mb-lg-4">HSATCO</h1>
           
-            <h2 class="text-primary" style="font-size:20px;" >HUSSAIN SALEH HAMAD AL QAHTANI <br> TRADING & CONTRACTING EST.</h2>
+            <h2 class="text-white" style="font-size:20px;" >HUSSAIN SALEH HAMAD AL QAHTANI <br> TRADING & CONTRACTING EST.</h2>
             <!-- <h1 class="text-uppercase text-white mb-lg-4">HUSSAIN SALEH HAMAD AL QAHTANI <hr> TRADING & CONTRACTING EST.</h1> -->
             <p class="full-name hero-para fs-4 text-white mb-lg-4"> <b>
             </b>
 </p>
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                        <a href="about.html" class="btn btn-outline-light border-2 py-md-3 px-md-5 me-5">About Us</a>
+              <a href="about.html">
+              <div class="btn btn-primary border-2 py-md-3 py-sm-3 px-md-5 me-5">About</div>
+</a>
+                        <!-- <a href="about.html" class="btn btn-outline-light border-2 py-md-3 px-md-5 me-5">About Us</a> -->
                     </div>
                 </div>
             </div>
@@ -238,7 +240,10 @@
     <!-- Products Start -->
     <div class="container-fluid pt-5">
         <div class="text-center mb-4">
-            <h2 class="section-title px-5"><span class="px-2">PRODUCTS</span></h2>
+<div class="bg-light text-center p-4">
+            <h5 class="text-uppercase text-primary" style="font-size:30px;">Products</h5>
+                    </div>
+            <!-- <h2 class="section-title px-5"><span class="px-2">PRODUCTS</span></h2> -->
         </div>
         <div class="row px-xl-5 pb-3">
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
@@ -339,7 +344,7 @@
                   <h6></h6><h6 class="text-muted ml-2">HEX BOLTS, ANCHOR BOLTS</h6>
                         </div>
                     </div>
-                <div class="btn btn-primary">More Details</div>
+                <div class="btn btn-primary" onclick="product('fasteners')">More Details</div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
@@ -353,7 +358,7 @@
                   <h6></h6><h6 class="text-muted ml-2">Conduit, Elbows, Couplings,Bushings</h6>
                         </div>
                     </div>
-                <div class="btn btn-primary">More Details</div>
+                <div class="btn btn-primary" onclick="product('conduit')">More Details</div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
@@ -367,7 +372,7 @@
                   <h6></h6><h6 class="text-muted ml-2">Plastic Ropes,Mooring Ropes,Natural Fiber Ropes</h6>
                         </div>
                     </div>
-                <div class="btn btn-primary">More Details</div>
+                <div class="btn btn-primary" onclick="product('ropes')">More Details</div>
                 </div>
             </div>
               <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
@@ -381,7 +386,7 @@
                   <h6></h6><h6 class="text-muted ml-2">Terimination,Splicing kits,Cable Glands,Ties,Markers,Lugs,Cheats,etc</h6>
                         </div>
                     </div>
-                <div class="btn btn-primary">More Details</div>
+                <div class="btn btn-primary" onclick="product('cable')">More Details</div>
                 </div>
             </div>
               <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
@@ -395,7 +400,7 @@
                   <h6></h6><h6 class="text-muted ml-2">Woods,timber blocks,Wood planks,Wood wedges,Hardwood blocks</h6>
                         </div>
                     </div>
-                <div class="btn btn-primary">More Details</div>
+                <div class="btn btn-primary" onclick="product('wooden')">More Details</div>
                 </div>
             </div>
         </div>
@@ -423,59 +428,60 @@
                     </div>
                 </div>
     <!-- Team End -->
-    <!-- Blog Start -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
-                <h6 class="text-primary text-uppercase">Our Suppliers</h6>
-                <h1 class="display-5 text-uppercase mb-0"></h1>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-6">
-                    <div class="blog-item">
-                        <div class="row g-0 bg-light overflow-hidden">
-                            <div class="col-12 col-sm-5 h-100">
-                                <img class="img-fluid h-100" src="img/supplier1.jpg" style="object-fit: cover;">
-                            </div>
-                            <div class="col-12 col-sm-7 h-100 d-flex flex-column justify-content-center">
-                                <div class="p-4">
-                                    <div class="d-flex mb-3">
-                                        <small class="me-3"><i class="bi bi-bookmarks me-2"></i>Since</small>
-                                        <small><i class="bi bi-calendar-date me-2"></i>01 Jan, 2020</small>
-                                    </div>
-                                    <h5 class="text-uppercase mb-3">Viraj India</h5>
-                                    <p> Viraj has made its presence felt worldwide having operations in more than 90 countries </p>
-                                    <a class="text-primary text-uppercase" href="">Read More<i class="bi bi-chevron-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="blog-item">
-                        <div class="row g-0 bg-light overflow-hidden">
-                            <div class="col-12 col-sm-5 h-100">
-                                <img class="img-fluid h-100" src="img/supplier2.jpg" style="object-fit: cover;">
-                            </div>
-                            <div class="col-12 col-sm-7 h-100 d-flex flex-column justify-content-center">
-                                <div class="p-4">
-                                    <div class="d-flex mb-3">
-                                        <small class="me-3"><i class="bi bi-bookmarks me-2"></i>Since</small>
-                                        <small><i class="bi bi-calendar-date me-2"></i>20 Mar, 2022</small>
-                                    </div>
-                                    <h5 class="text-uppercase mb-3">STAUFF - Germany</h5>
-                                    <p>STAUFF Group have been developing, manufacturing and distributing pipework equipment and hydraulic components</p>
-                                    <a class="text-primary text-uppercase" href="">Read More<i class="bi bi-chevron-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Blog End -->
-<section class="">
+    <!---->
+    <!-- <!-- Blog Start -->
+    <!-- <div class="container-fluid py-5"> -->
+    <!--     <div class="container"> -->
+    <!--         <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;"> -->
+    <!--             <h6 class="text-primary text-uppercase">Our Suppliers</h6> -->
+    <!--             <h1 class="display-5 text-uppercase mb-0"></h1> -->
+    <!--         </div> -->
+    <!--         <div class="row g-5"> -->
+    <!--             <div class="col-lg-6"> -->
+    <!--                 <div class="blog-item"> -->
+    <!--                     <div class="row g-0 bg-light overflow-hidden"> -->
+    <!--                         <div class="col-12 col-sm-5 h-100"> -->
+    <!--                             <img class="img-fluid h-100" src="img/supplier1.jpg" style="object-fit: cover;"> -->
+    <!--                         </div> -->
+    <!--                         <div class="col-12 col-sm-7 h-100 d-flex flex-column justify-content-center"> -->
+    <!--                             <div class="p-4"> -->
+    <!--                                 <div class="d-flex mb-3"> -->
+    <!--                                     <small class="me-3"><i class="bi bi-bookmarks me-2"></i>Since</small> -->
+    <!--                                     <small><i class="bi bi-calendar-date me-2"></i>01 Jan, 2020</small> -->
+    <!--                                 </div> -->
+    <!--                                 <h5 class="text-uppercase mb-3">Viraj India</h5> -->
+    <!--                                 <p> Viraj has made its presence felt worldwide having operations in more than 90 countries </p> -->
+    <!--                                 <a class="text-primary text-uppercase" href="">Read More<i class="bi bi-chevron-right"></i></a> -->
+    <!--                             </div> -->
+    <!--                         </div> -->
+    <!--                     </div> -->
+    <!--                 </div> -->
+    <!--             </div> -->
+    <!--             <div class="col-lg-6"> -->
+    <!--                 <div class="blog-item"> -->
+    <!--                     <div class="row g-0 bg-light overflow-hidden"> -->
+    <!--                         <div class="col-12 col-sm-5 h-100"> -->
+    <!--                             <img class="img-fluid h-100" src="img/supplier2.jpg" style="object-fit: cover;"> -->
+    <!--                         </div> -->
+    <!--                         <div class="col-12 col-sm-7 h-100 d-flex flex-column justify-content-center"> -->
+    <!--                             <div class="p-4"> -->
+    <!--                                 <div class="d-flex mb-3"> -->
+    <!--                                     <small class="me-3"><i class="bi bi-bookmarks me-2"></i>Since</small> -->
+    <!--                                     <small><i class="bi bi-calendar-date me-2"></i>20 Mar, 2022</small> -->
+    <!--                                 </div> -->
+    <!--                                 <h5 class="text-uppercase mb-3">STAUFF - Germany</h5> -->
+    <!--                                 <p>STAUFF Group have been developing, manufacturing and distributing pipework equipment and hydraulic components</p> -->
+    <!--                                 <a class="text-primary text-uppercase" href="">Read More<i class="bi bi-chevron-right"></i></a> -->
+    <!--                             </div> -->
+    <!--                         </div> -->
+    <!--                     </div> -->
+    <!--                 </div> -->
+    <!--             </div> -->
+    <!--         </div> -->
+    <!--     </div> -->
+    <!-- </div> -->
+    <!-- <!-- Blog End -->
+    <section class="">
 
 
     <!-- Footer Start -->
@@ -574,6 +580,19 @@ function product(itemname) {
   }
   else if(itemname=="safty"){
      window.location.href = "/products/safty.html";
+  }
+  else if(itemname=="fasteners"){
+     window.location.href = "/products/fasteners.html";
+  }else if(itemname=="conduit"){
+     window.location.href = "/products/conduit.html";
+  }else if(itemname=="ropes"){
+     window.location.href = "/products/ropes.html";
+  }
+  else if(itemname=="cable"){
+     window.location.href = "/products/cable.html";
+  }
+  else if(itemname=="wooden"){
+     window.location.href = "/products/wooden.html";
   }
 }
 </script>
