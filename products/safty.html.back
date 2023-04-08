@@ -65,9 +65,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-0">
-          <a href="../index.html" class="nav-item nav-link">Home</a>
-          <a href="../about.html" class="nav-item nav-link">About</a>
-          <a href="../service.html" class="nav-item nav-link active">Service</a>
+          <a href="index.html" class="nav-item nav-link active">Home</a>
+          <a href="about.html" class="nav-item nav-link">About</a>
+          <a href="service.html" class="nav-item nav-link">Service</a>
+          <a href="product.html" class="nav-item nav-link">Product</a>
           <div class="nav-item dropdown">
             <a
               href="#"
@@ -99,49 +100,29 @@
       style="max-width: 600px"
     >
       <h6 class="text-primary text-uppercase">Products</h6>
-      <h1 class="display-5 text-uppercase mb-0" style="font-size: 34px">
-        SAFTY MATERIALS
-      </h1>
+      <h1 class="display-5 text-uppercase mb-0">SAFETY MATERIALS</h1>
     </div>
 
     <!-- header end -->
     <!-- product section -->
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col-md-6 col-sm-1">
           <div class="banner-text">
-            <center>
-              <img
-                style="
-                  background-size: cover;
-                  background-position: top center;
-                  background-repeat: no-repeat;
-                  width: 300px;
-                  height: 300px;
-                  position: relative;
-                  clear: both;
-                "
-                src="../img/safty.png"
-              />
-            </center>
-
-            <br />
+            <img
+              style="
+                background-size: cover;
+                background-position: top center;
+                background-repeat: no-repeat;
+                height: 230px;
+                position: relative;
+                clear: both;
+              "
+              src="../img/safty.png"
+            />
           </div>
         </div>
-        <div class="col">
-          <strong
-            style="
-              border: 0px rgb(229, 229, 229);
-              outline: 0px;
-              vertical-align: baseline;
-              background: transparent;
-              margin: 0px;
-              padding: 0px;
-              color: rgb(26, 188, 156);
-            "
-            >&nbsp; SAFTY MATERIALS&nbsp;</strong
-          >
-          <br />
+        <div class="col-md-6 col-sm-1">
           &nbsp
           <p>
             Safety Materials: 3M 8210 MASK, GERSON N95, DM113 MASK, DM114 MASK,
@@ -158,6 +139,10 @@
             SHOES, FIRE RETARDANT COVERALL, COTTON AND POLY COVERALL, DISPOSABLE
             COVERALL, WINTER JACKET, RAIN SUIT, RAIN COAT, WELDNG GLASS AND
             ETC..
+          </p>
+          <p>
+            Manufacturer: EAGLE, SWAN, MSA, 3M Electrical Products, NOMEX,
+            Specified technologies Inch. (Fire Barrier), Rayovac Corp.,
           </p>
         </div>
       </div>
